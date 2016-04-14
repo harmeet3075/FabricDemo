@@ -29,7 +29,7 @@ android {
     signingConfigs {
         release {
             // this keystore is located at module level
-            storeFile file("/Android.jks")
+            storeFile file("../Android.jks")
             storePassword "monu12345"
             keyAlias "monu12345"
             keyPassword "monu12345"
